@@ -1,7 +1,7 @@
 import './App.css'
-import BarraNavegacao from './components/BarraNavegacao'
-import Rodape from './components/Rodape'
-import Home from './components/Home'
+import BarraNavegacao from './components/BarraNavegacaoErodape/jsx/BarraNavegacao'
+import Rodape from './components/BarraNavegacaoErodape/jsx/Rodape'
+import Home from './components/Home/jsx/Home'
 function App() {
 
   return (
