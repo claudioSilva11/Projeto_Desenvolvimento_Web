@@ -5,37 +5,16 @@
     color: white;
     margin-top: 30px;
     position: fixed;
-  bottom: 0;
-  width: 100%;
+    bottom: 0;
+    width: 100%;
 }
-/* main{
-    flex-grow: 1;
-} */
-.icone-footer{
-    color: white;
-    font-size: 35px;
-}
-.icone-footer:hover{
-    color: black;
-    font-size: 50px;
-}
+
 #conteudo-footer{
     text-align: center;
     padding-top: 20px;
 }
 
-#grupo-icones-footer{
-    display: flex;
-    flex-direction: row;
-    /* align-items: center;  */
-    justify-content:center;
-    gap: 50px;
-    margin-top: 20px;
-    /* padding: 20px;
-    background-color: yellow; */
-}  
 
 #copyright{
-    /* margin-top: 30px; */
     font-size: 15px;
 }

@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <BarraNavegacao />
-      <div className="container">
+      <div className="container" id="conteudo">
         <Home />
       </div>
       <Rodape />
