@@ -3,7 +3,7 @@ function BarraNavegacao() {
         <>
             <nav className="navbar bg-light fixed-top sticky-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Offcanvas navbar</a>
+                    <a className="navbar-brand" href="#">Testemunho.Net</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span className="navbar-toggler-icon"></span>
                     </button>
