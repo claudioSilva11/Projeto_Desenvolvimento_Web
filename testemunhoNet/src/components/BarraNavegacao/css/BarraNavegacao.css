@@ -1,0 +1,18 @@
+#lupinhaPesquisa {
+    color: SteelBlue ;
+    border: 2px solid SteelBlue ;
+}
+
+#lupinhaPesquisa:hover {
+    color: white ;
+    background-color:  steelblue;
+}
+
+.colorSteelBlue {
+    color: steelblue;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
