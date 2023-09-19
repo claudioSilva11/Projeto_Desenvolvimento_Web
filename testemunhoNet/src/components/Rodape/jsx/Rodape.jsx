@@ -6,7 +6,7 @@ export default function Rodape() {
             <footer id="rodape">
                 <div id="conteudo-footer">
                     <h4>Testemunho.Net</h4>
-                    <p id="copyright">Copyright  &copy;2023 Testemunho.Net.</p>
+                    <p id="copyright">Copyright  &copy;2023 Testemunho.Net</p>
                 </div>
             </footer>
         </>
