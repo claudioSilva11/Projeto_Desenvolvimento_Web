@@ -6,5 +6,10 @@
 #tituloSecaoPesquisa {
     font-size: 20px;
     text-align: center;
-    margin: 0 10%;
+    margin: 30px 10%;
+}
+
+#tituloTestemunhos {
+    text-align: center;
+    margin: 40px 0;
 }
