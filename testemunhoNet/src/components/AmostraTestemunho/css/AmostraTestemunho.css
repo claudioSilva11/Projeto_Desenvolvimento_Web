@@ -1,0 +1,14 @@
+#divAmostraTestemunho {
+    background-color: #ccc;
+    padding: 50px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#tituloAmostraTestemunho {
+    font-size: 20px;
+}
+
+#linkTestemunhoCompleto {
+    color: #13037A;
+}
