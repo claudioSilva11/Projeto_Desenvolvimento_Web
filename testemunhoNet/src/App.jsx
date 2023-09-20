@@ -1,16 +1,27 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements
+} from "react-router-dom";
 import './App.css'
-import BarraNavegacao from './components/BarraNavegacao/jsx/BarraNavegacao'
-import Rodape from './components/Rodape/jsx/Rodape'
-import Home from './components/Home/jsx/Home'
+import Template from "./components/Template";
+import Home from "./components/Home/jsx/Home";
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Template/>}>
+      <Route path="" element={<Home/>}/>
+    </Route>
+  )); 
+
 function App() {
 
   return (
     <>
-      <BarraNavegacao />
-      <div className="container" id="conteudo">
-        <Home />
-      </div>
-      <Rodape />
+      <RouterProvider router={router}/>
     </>
   )
 }
