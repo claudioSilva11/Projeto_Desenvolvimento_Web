@@ -1,8 +1,8 @@
 import '../css/Home.css'
-import Carrosselimagens from './Carrosselimagens';
-import BarraPesquisa from './BarraPesquisa';
-import AmostraTestemunho from '../../AmostraTestemunho/jsx/AmostraTestemunho';
-import LinksPaginacao from '../../LinksPaginacao/jsx/LinksPaginacao';
+import Carrosselimagens from '../../../components/Carrosselimagens/jsx/Carrosselimagens'
+import BarraPesquisa from '../../../components/BarraPesquisa/jsx/BarraPesquisa';
+import AmostraTestemunho from '../../../components/AmostraTestemunho/jsx/AmostraTestemunho';
+import LinksPaginacao from '../../../components/LinksPaginacao/jsx/LinksPaginacao';
 
 export default function Home() {
     return (

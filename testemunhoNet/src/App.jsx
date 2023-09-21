@@ -5,8 +5,8 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 import './App.css'
-import Template from "./components/Template";
-import Home from "./components/Home/jsx/Home";
+import Template from "./routes/Template";
+import Home from "./routes/Home/jsx/Home";
 
 
 
