@@ -1,5 +1,5 @@
-import Form from "../utils/Form";
-import "./editarPerfil.css";
+import Form from "../../../components/utils/Form";
+import "../css/editarPerfil.css";
 
 const perfil = {
     nome: "marcos",

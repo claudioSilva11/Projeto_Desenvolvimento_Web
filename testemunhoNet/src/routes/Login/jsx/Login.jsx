@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../utils/Button";
-import Logo from "../utils/Logo";
-import "./login.css";
+
+import Logo from "../../../components/utils/Logo";
+import "../css/login.css";
+import Button from "../../../components/utils/Button";
 
 
 const Login = () => {
