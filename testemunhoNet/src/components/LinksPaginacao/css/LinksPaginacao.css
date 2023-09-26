@@ -1,0 +1,15 @@
+#navPaginação {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.linkPaginacao {
+    color: SteelBlue  !important;
+    background-color: white  !important;
+}
+
+.linkPaginacao:hover {
+    color: white  !important;
+    background-color:  steelblue  !important;
+}
