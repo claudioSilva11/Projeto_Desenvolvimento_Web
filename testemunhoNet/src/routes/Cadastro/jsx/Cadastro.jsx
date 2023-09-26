@@ -1,5 +1,6 @@
-import Form from "../utils/Form";
-import "./cadastro.css";
+
+import Form from "../../../components/utils/Form";
+import "../css/cadastro.css";
 
 
 const Cadastro = () => {

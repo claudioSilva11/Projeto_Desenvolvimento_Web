@@ -6,12 +6,14 @@ import {
 } from "react-router-dom";
 import './App.css'
 import "./components/utils/template.css";
-import Template from "./components/Template";
-import Home from "./components/Home/jsx/Home";
-import Login from "./components/Login/Login";
-import Cadastro from "./components/Cadastro/Cadastro";
-import EditarPerfil from "./components/EditarPerfil/EditarPerfil";
-import EscreverTestemunho from "./components/EscreverTestemunho/EscreverTestemunho";
+
+import Home from "./routes/Home/jsx/Home";
+
+import Template from "./routes/Template";
+import Login from "./routes/Login/jsx/Login";
+import Cadastro from "./routes/Cadastro/jsx/Cadastro";
+import EditarPerfil from "./routes/EditarPerfil/jsx/EditarPerfil";
+import EscreverTestemunho from "./routes/EscreverTestemunho/jsx/EscreverTestemunho";
 
 
 
