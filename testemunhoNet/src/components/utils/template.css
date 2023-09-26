@@ -1,0 +1,8 @@
+:root{
+    --verde-primario: #0A8024;
+    --verde-secundario: #17a535;
+    --azul-primario: #13037A; 
+}
+.main-content-template{
+    min-height: 100vh;
+}

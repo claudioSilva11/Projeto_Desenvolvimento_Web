@@ -2,12 +2,14 @@ import { Outlet } from "react-router-dom";
 import BarraNavegacao from "../components/BarraNavegacao/jsx/BarraNavegacao";
 import Rodape from "../components/Rodape/jsx/Rodape";
 
-const Template = () =>{
+const Template = () => {
     return (
         <>
-            <BarraNavegacao/>
-            <Outlet/>
-            <Rodape/>
+            <BarraNavegacao />
+            <div className="main-content-template">
+                <Outlet />
+            </div>
+            <Rodape />
         </>
     )
 }

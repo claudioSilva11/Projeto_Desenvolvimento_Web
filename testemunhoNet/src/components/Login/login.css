@@ -1,0 +1,19 @@
+.form__login-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.form-container__login {
+    margin-top: 80px;
+    width: 400px;
+}
+
+.login-cadastro__link {
+    color: var(--verde-primario);
+    text-decoration: none;
+    cursor: pointer;
+}
