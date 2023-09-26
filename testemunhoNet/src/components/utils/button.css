@@ -1,0 +1,9 @@
+.btn-custom{
+    width: 100%;
+    background-color: var(--verde-primario);
+    outline: none;
+    border: none;
+}
+.btn-custom:hover{
+    background-color: var(--verde-secundario);
+}
