@@ -2,7 +2,11 @@
     --verde-primario: #0A8024;
     --verde-secundario: #17a535;
     --azul-primario: #13037A; 
+    --azul-secondario: #008DD1;
+    --azul-200: #037bb2;
+    --cinza-primario: #D9D9D9;
 }
 .main-content-template{
     min-height: 100vh;
+    padding-top: 80px;
 }
