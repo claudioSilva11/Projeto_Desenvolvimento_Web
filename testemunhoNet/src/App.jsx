@@ -14,6 +14,7 @@ import Login from "./routes/Login/jsx/Login";
 import Cadastro from "./routes/Cadastro/jsx/Cadastro";
 import EditarPerfil from "./routes/EditarPerfil/jsx/EditarPerfil";
 import EscreverTestemunho from "./routes/EscreverTestemunho/jsx/EscreverTestemunho";
+import Testemunho from "./routes/Testemunho/jsx/Testemunho";
 
 
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Template />}>
         <Route path="" element={<Home />} />
         <Route path="escrever-testemunho" element={<EscreverTestemunho/>} />
+        <Route path="testemunho" element={<Testemunho/>} />
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/cadastro" element={<Cadastro />} />

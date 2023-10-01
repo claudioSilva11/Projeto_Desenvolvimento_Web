@@ -1,0 +1,133 @@
+.tetemunhos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tetemunhos-conteudo {
+    width: 700px;
+
+}
+
+.tetemunhos-conteudo__perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tetemunhos-conteudo__autor {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tetemunhos-conteudo__texto {
+    margin-top: 50px;
+}
+
+.texto__titulo {
+    font-size: 35px; 
+    color: var(--azul-primario);
+}
+
+.tetemunhos-conteudo__texto .texto__titulo {
+    text-align: center;
+}
+
+.tetemunhos-conteudo__texto .texto__edit {
+    margin-top: 25px;
+    text-align: end;
+}
+
+.tetemunhos-conteudo__acoes {
+    margin-top: 40px;
+}
+
+.tetemunhos-conteudo__acoes>* {
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+/* comentario testemunho*/
+.comentario-testemunho__container {
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.comentario-testemunho__container .add-comentario>* {
+    margin-right: 20px;
+
+}
+
+.tetemunhos-conteudo__comentario-container{
+    margin-top: 80px;
+}
+
+.tetemunhos-conteudo__comentario {
+    margin-top: 30px;
+    background-color: var(--cinza-primario);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.tetemunhos-conteudo__comentario>* {
+    margin-top: 15px;
+}
+
+/* comentario */
+.comentario__container {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.comentario__container>* {
+    margin-right: 15px;
+}
+
+.comentario__perfil-container {
+    margin-top: 15px;
+}
+
+.comentario__perfil {
+    width: 80px;
+    height: 80px;
+}
+
+.comentario-info {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.comentario__autor {
+    width: 100%;
+}
+
+.comentario__autor>p:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+.comentario__desc {
+    margin-top: 5px;
+}
+
+.comentario__data {
+    text-align: end;
+}
+
+.comentario-info .dropdown-menu {
+    background-color: var(--azul-secondario);
+
+}
+
+.comentario-info .dropdown-menu .dropdown-item {
+    color: white;
+
+}
+
+.comentario-info .dropdown-menu .dropdown-item:hover {
+    background-color: var(--azul-200);
+}
