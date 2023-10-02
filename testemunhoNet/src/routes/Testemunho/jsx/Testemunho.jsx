@@ -2,61 +2,10 @@ import Perfil from "../../../components/utils/Perfil";
 import "../css/testemunho.css";
 import { IoArrowRedoOutline } from "react-icons/io5";
 import { AiOutlineDownload } from "react-icons/ai";
-import { CiMenuKebab } from "react-icons/ci";
 import { FiEdit } from "react-icons/fi";
-import Input from "../../../components/utils/Input";
+import ListaComentarios from "../../../components/ListaComentarios/jsx/ListaComentarios";
 
 
-const Comentario = () => {
-    return (
-        <div className="comentario__container d-flex flex-row">
-            <div className="comentario__perfil-container">
-                <Perfil classe="comentario__perfil" />
-            </div>
-            <div className="comentario-info">
-                <div className="comentario__autor d-flex flex-row align-items-center justify-content-between">
-                    <p>João Souza</p>
-                    <div className="dropdown">
-                        <div className="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <CiMenuKebab />
-                        </div>
-                        <ul className="dropdown-menu dropdown-comentario">
-                            <li><a className="dropdown-item" href="#">Editar</a></li>
-                            <li><a className="dropdown-item" href="#">Excluir</a></li>
-                            <li><a className="dropdown-item" href="#">Denunciar</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div className="comentario__desc">
-                    <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p className="comentario__data">04/01/2023</p>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-
-const ComentarioTestemunho = () => {
-    return (
-        <div className="comentario-testemunho__container">
-            <div className="add-comentario d-flex flex-row align-items-center">
-                <Input filled placeHolder="Adicione um comentário..." />
-                <button type="button" className="btn btn-success">Comentar</button>
-                <button type="button" className="btn btn-danger">Cancelar</button>
-            </div>
-            <div>
-                <Comentario />
-                <Comentario />
-                <Comentario />
-                <Comentario />
-                <Comentario />
-                <Comentario />
-            </div>
-        </div>
-    );
-}
 
 
 const Testemunho = () => {
@@ -99,7 +48,7 @@ const Testemunho = () => {
                     <p className="texto__titulo">Comentarios</p>
                     <div className="tetemunhos-conteudo__comentario">
                         <div>
-                            <ComentarioTestemunho />
+                            <ListaComentarios />
                         </div>
                     </div>
                 </div>

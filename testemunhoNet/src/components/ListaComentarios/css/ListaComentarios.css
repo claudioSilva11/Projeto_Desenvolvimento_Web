@@ -1,0 +1,26 @@
+.comentario-testemunho__container {
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.comentario-testemunho__container .add-comentario>* {
+    margin-right: 20px;
+
+}
+
+.tetemunhos-conteudo__comentario-container{
+    margin-top: 80px;
+}
+
+.tetemunhos-conteudo__comentario {
+    margin-top: 30px;
+    background-color: var(--cinza-primario);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.tetemunhos-conteudo__comentario>* {
+    margin-top: 15px;
+}
