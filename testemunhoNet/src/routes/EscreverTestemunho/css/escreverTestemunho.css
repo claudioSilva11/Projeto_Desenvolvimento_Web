@@ -34,8 +34,15 @@
     background: rgba(156, 149, 149, 0.3);
     border-style: none;
     padding: 5px;
+    resize: none
 }
 
 #desativado{
     margin-left: 15px;
+    margin-right: 10px;
+}
+
+#ativado{
+    margin-left: 10px;
+    /* margin-right: 10px; */
 }
