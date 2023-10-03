@@ -53,3 +53,46 @@
 .comentario-info .dropdown-menu .dropdown-item:hover {
     background-color: var(--azul-200);
 }
+
+
+/* Modal excluir, */
+#excluirModal {
+    text-align: center; 
+}
+
+/* Modal denunciar */
+.radio {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#conteNos {
+    margin-top: 20px;
+    border-style: none;
+    border-bottom-style: solid ;
+    width: 100%;
+    outline: none;
+}
+#conteNos:hover{
+    border-color: steelblue;
+}
+
+#conteNos:focus {
+    border-color: steelblue;
+}
+
+
+#denunciar {
+    padding: 5px 50px;
+    border-radius: 5px;
+    background-color: SteelBlue;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+#denunciar:hover {
+    background-color: white;
+    color: SteelBlue;
+    border-color: SteelBlue;
+}
