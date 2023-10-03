@@ -5,8 +5,7 @@
 }
 
 .tetemunhos-conteudo {
-    width: 700px;
-
+    width: 800px;
 }
 
 .tetemunhos-conteudo__perfil {
@@ -22,6 +21,8 @@
 
 .tetemunhos-conteudo__texto {
     margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .texto__titulo {

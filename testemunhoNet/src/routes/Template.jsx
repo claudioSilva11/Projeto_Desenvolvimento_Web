@@ -6,7 +6,7 @@ const Template = () => {
     return (
         <>
             <BarraNavegacao />
-            <div className="main-content-template">
+            <div className="main-content-template container">
                 <Outlet />
             </div>
             <Rodape />

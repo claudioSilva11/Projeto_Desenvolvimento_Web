@@ -34,7 +34,7 @@ const Login = () => {
                         <p>Não tem cadastro? <Link className="login-cadastro__link" to={"../cadastro"}>Cadastre-se</Link></p>
                     </div>
                     <div className="form__logim-btn" >
-                        <Button>Login</Button>
+                        <Button >Login</Button>
                     </div>
                 </form>
             </div>
